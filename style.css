@@ -1,0 +1,42 @@
+body { 
+    text-align: center;
+    background-color: lightcoral;
+    
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: yellow;
+}
+
+a {
+    text-decoration: underline; 
+    
+}
+.text {
+    margin: 10px;
+}
+
+ul {
+    text-align:center;
+}
+ol {
+    text-align:center; 
+}
+
+.one {
+    list-style-position: inside;
+}
+li::marker {
+    white-space:pre-line;
+    font-weight: bold;
+}
+
+
